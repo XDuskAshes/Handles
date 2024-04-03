@@ -118,7 +118,9 @@ repositories {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${forge_version}"
-    implementation fg.deobf("com.gitlab.Spectre0987:TardisMod:${tm_tag}")
+
+    implementation fg.deobf("curse.maven:new-tardis-mod-290247:${tm_curseforge}")
+    //implementation fg.deobf("com.gitlab.Spectre0987:TardisMod:${tm_tag}")
     //implementation fg.deobf("com.gitlab.Spectre0987:TardisMod-1-14:1.16-SNAPSHOT")
 
     compileOnly fg.deobf("mezz.jei:jei-${jei_version}:api")
